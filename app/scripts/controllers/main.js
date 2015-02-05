@@ -12,6 +12,10 @@ if (!Array.prototype.indexOf) {
     Array.prototype.indexOf = function(valor) { };
 }
 
+/**
+ * Prueba de commit.
+ */
+
 angular.module('01HolaMundoApp')
   .controller('MainCtrl', ['$scope', function (scope) {
     this.borrarElemento = function (dato) {
